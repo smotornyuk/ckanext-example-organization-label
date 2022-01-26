@@ -1,0 +1,14 @@
+# example_organization_label-js:
+#   filter: rjsmin
+#   output: ckanext-example_organization_label/%(version)s-example_organization_label.js
+#   contents:
+#     - js/example_organization_label.js
+#   extra:
+#     preload:
+#       - base/main
+
+# example_organization_label-css:
+#   filter: cssrewrite
+#   output: ckanext-example_organization_label/%(version)s-example_organization_label.css
+#   contents:
+#     - css/example_organization_label.css

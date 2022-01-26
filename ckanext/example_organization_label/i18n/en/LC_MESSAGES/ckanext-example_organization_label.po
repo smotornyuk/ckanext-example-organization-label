@@ -1,0 +1,323 @@
+# English translations for ckanext-example-organization-label.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the
+# ckanext-example-organization-label project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-example-organization-label 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-08-24 10:24+0300\n"
+"PO-Revision-Date: 2022-01-26 09:00+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ckan/controllers/feed.py:247 ckan/logic/action/create.py:1468
+#: ckan/views/feed.py:223
+msgid "Organization not found"
+msgstr "Team not found"
+
+#: ckan/controllers/group.py:317 ckan/controllers/home.py:61
+#: ckan/controllers/package.py:256 ckan/lib/helpers.py:1249
+#: ckan/templates/header.html:90
+#: ckan/templates/organization/base_form_page.html:4
+#: ckan/templates/organization/edit_base.html:5
+#: ckan/templates/organization/edit_base.html:8
+#: ckan/templates/organization/index.html:3
+#: ckan/templates/organization/index.html:6
+#: ckan/templates/organization/index.html:18
+#: ckan/templates/organization/read_base.html:3
+#: ckan/templates/organization/read_base.html:6
+#: ckan/templates/package/base.html:16 ckan/views/dataset.py:284
+#: ckan/views/group.py:304 ckan/views/home.py:49
+msgid "Organizations"
+msgstr "Teams"
+
+#: ckan/controllers/group.py:633 ckan/views/group.py:1019
+msgid "Organization has been deleted."
+msgstr "Team has been deleted."
+
+#: ckan/lib/mailer.py:150 ckan/templates/home/snippets/stats.html:17
+msgid "organization"
+msgstr "team"
+
+#: ckan/logic/validators.py:40 ckan/logic/validators.py:49
+msgid "An organization must be provided"
+msgstr "An team must be provided"
+
+#: ckan/logic/validators.py:67
+msgid "You cannot move this dataset to another organization"
+msgstr "You cannot move this dataset to another team"
+
+#: ckan/logic/validators.py:71
+msgid "Organization does not exist"
+msgstr "Team does not exist"
+
+#: ckan/logic/validators.py:76
+msgid "You cannot add a dataset to this organization"
+msgstr "You cannot add a dataset to this team"
+
+#: ckan/logic/validators.py:768
+msgid "Datasets with no organization can't be private."
+msgstr "Datasets with no team can't be private."
+
+#: ckan/logic/action/create.py:869
+msgid "Trying to create an organization as a group"
+msgstr "Trying to create an team as a group"
+
+#: ckan/logic/action/delete.py:418
+msgid "Organization cannot be deleted while it still has datasets"
+msgstr "Team cannot be deleted while it still has datasets"
+
+#: ckan/logic/action/update.py:1173
+msgid "Organization was not found."
+msgstr "Team was not found."
+
+#: ckan/logic/auth/create.py:38
+#, python-format
+msgid "User %s not authorized to add dataset to this organization"
+msgstr "User %s not authorised to add dataset to this team"
+
+#: ckan/logic/auth/create.py:129
+#, python-format
+msgid "User %s not authorized to create organizations"
+msgstr "User %s not authorised to create teams"
+
+#: ckan/logic/auth/delete.py:103
+#, python-format
+msgid "User %s not authorized to delete organizations"
+msgstr "User %s not authorised to delete teams"
+
+#: ckan/logic/auth/delete.py:107
+#, python-format
+msgid "User %s not authorized to delete organization %s"
+msgstr "User %s not authorised to delete team %s"
+
+#: ckan/logic/auth/update.py:144
+#, python-format
+msgid "User %s not authorized to edit organization %s"
+msgstr "User %s not authorised to edit team %s"
+
+#: ckan/templates/admin/trash.html:31
+msgid "Purge deleted datasets, organizations or groups forever and irreversibly."
+msgstr "Purge deleted datasets, teams or groups forever and irreversibly."
+
+#: ckan/templates/admin/snippets/data_type.html:9
+msgid "Deleted organizations"
+msgstr "Deleted teams"
+
+#: ckan/templates/home/snippets/stats.html:17
+msgid "organizations"
+msgstr "teams"
+
+#: ckan/templates/organization/base_form_page.html:5
+msgid "Add an Organization"
+msgstr "Add an Team"
+
+#: ckan/templates/organization/base_form_page.html:10
+msgid "Organization Form"
+msgstr "Team Form"
+
+#: ckan/templates/organization/bulk_process.html:98
+msgid "This organization has no datasets associated to it"
+msgstr "This team has no datasets associated to it"
+
+#: ckan/templates/organization/confirm_delete.html:11
+msgid "Are you sure you want to delete organization - {name}?"
+msgstr "Are you sure you want to delete team - {name}?"
+
+#: ckan/templates/organization/edit.html:6
+#: ckan/templates/organization/snippets/info.html:13
+#: ckan/templates/organization/snippets/info.html:16
+msgid "Edit Organization"
+msgstr "Edit Team"
+
+#: ckan/templates/organization/index.html:13
+#: ckan/templates/user/dashboard_organizations.html:7
+msgid "Add Organization"
+msgstr "Add Team"
+
+#: ckan/templates/organization/index.html:20
+msgid "Search organizations..."
+msgstr "Search teams..."
+
+#: ckan/templates/organization/index.html:29
+msgid "There are currently no organizations for this site"
+msgstr "There are currently no teams for this site"
+
+#: ckan/templates/organization/member_new.html:95
+msgid ""
+"<p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage organization members.</p> <p><strong>Editor:</strong> Can add and "
+"edit datasets, but not manage organization members.</p> "
+"<p><strong>Member:</strong> Can view the organization's private datasets,"
+" but not add new datasets.</p>"
+msgstr ""
+" <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as "
+"manage team members.</p> <p><strong>Editor:</strong> Can add and edit "
+"datasets, but not manage team members.</p> <p><strong>Member:</strong> "
+"Can view the team's private datasets, but not add new datasets.</p> "
+
+#: ckan/templates/organization/new.html:3
+#: ckan/templates/organization/new.html:5
+#: ckan/templates/organization/new.html:7
+msgid "Create an Organization"
+msgstr "Create an Team"
+
+#: ckan/templates/organization/new_organization_form.html:17
+msgid "Update Organization"
+msgstr "Update Team"
+
+#: ckan/templates/organization/new_organization_form.html:19
+msgid "Create Organization"
+msgstr "Create Team"
+
+#: ckan/templates/organization/snippets/feeds.html:2
+msgid "Datasets in organization: {group}"
+msgstr "Datasets in team: {group}"
+
+#: ckan/templates/organization/snippets/help.html:4
+#: ckan/templates/organization/snippets/helper.html:4
+msgid "What are Organizations?"
+msgstr "What are Teams?"
+
+#: ckan/templates/organization/snippets/help.html:7
+msgid ""
+"<p>Organizations act like publishing departments for datasets (for "
+"example, the Department of Health). This means that datasets can be "
+"published by and belong to a department instead of an individual "
+"user.</p> <p>Within organizations, admins can assign roles and authorise "
+"its members, giving individual users the right to publish datasets from "
+"that particular organisation (e.g. Office of National Statistics).</p>"
+msgstr ""
+" <p>Teams act like publishing departments for datasets (for example, the "
+"Department of Health). This means that datasets can be published by and "
+"belong to a department instead of an individual user.</p> <p>Within "
+"teams, admins can assign roles and authorise its members, giving "
+"individual users the right to publish datasets from that particular team "
+"(e.g. Office of National Statistics).</p> "
+
+#: ckan/templates/organization/snippets/helper.html:8
+msgid ""
+"CKAN Organizations are used to create, manage and publish collections of "
+"datasets. Users can have different roles within an Organization, "
+"depending on their level of authorisation to create, edit and publish."
+msgstr ""
+" CKAN Teams are used to create, manage and publish collections of "
+"datasets. Users can have different roles within an Team, depending on "
+"their level of authorisation to create, edit and publish. "
+
+#: ckan/templates/organization/snippets/organization_form.html:10
+msgid "My Organization"
+msgstr "My Team"
+
+#: ckan/templates/organization/snippets/organization_form.html:20
+msgid "A little information about my organization..."
+msgstr "A little information about my team..."
+
+#: ckan/templates/organization/snippets/organization_form.html:38
+msgid ""
+"Are you sure you want to delete this Organization? Note*: Deleting cannot"
+" be performed while public or private datasets belong to this "
+"organization."
+msgstr ""
+"Are you sure you want to delete this Team? Note*: Deleting cannot be "
+"performed while public or private datasets belong to this team."
+
+#: ckan/templates/organization/snippets/organization_form.html:41
+msgid "Save Organization"
+msgstr "Save Team"
+
+#: ckan/templates/package/snippets/cannot_create_package.html:10
+msgid "Before you can create a dataset you need to create an organization."
+msgstr "Before you can create a dataset you need to create an team."
+
+#: ckan/templates/package/snippets/cannot_create_package.html:13
+msgid "Create a new organization"
+msgstr "Create a new team"
+
+#: ckan/templates/package/snippets/cannot_create_package.html:18
+msgid "There are no organizations to which you can assign this dataset."
+msgstr "There are no teams to which you can assign this dataset."
+
+#: ckan/templates/package/snippets/cannot_create_package.html:19
+msgid ""
+"Ask a system administrator to create an organization before you can "
+"continue."
+msgstr "Ask a system administrator to create an team before you can continue."
+
+#: ckan/templates/package/snippets/package_basic_fields.html:79
+#: ckan/templates/snippets/organization.html:23
+msgid "Organization"
+msgstr "Team"
+
+#: ckan/templates/package/snippets/package_basic_fields.html:83
+msgid "No organization"
+msgstr "No team"
+
+#: ckan/templates/snippets/organization.html:50
+msgid "There is no description for this organization"
+msgstr "There is no description for this team"
+
+#: ckan/templates/snippets/search_result_text.html:27
+msgid "{number} organization found for \"{query}\""
+msgid_plural "{number} organizations found for \"{query}\""
+msgstr[0] "{number} organization found for \"{query}\""
+msgstr[1] "{number} teams found for \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:28
+msgid "No organizations found for \"{query}\""
+msgstr "No teams found for \"{query}\""
+
+#: ckan/templates/snippets/search_result_text.html:29
+msgid "{number} organization found"
+msgid_plural "{number} organizations found"
+msgstr[0] "{number} organization found"
+msgstr[1] "{number} teams found"
+
+#: ckan/templates/snippets/search_result_text.html:30
+msgid "No organizations found"
+msgstr "No teams found"
+
+#: ckan/templates/snippets/activities/changed_organization.html:4
+msgid "{actor} updated the organization {organization}"
+msgstr "{actor} updated the team {organization}"
+
+#: ckan/templates/snippets/activities/deleted_organization.html:4
+msgid "{actor} deleted the organization {organization}"
+msgstr "{actor} deleted the team {organization}"
+
+#: ckan/templates/snippets/activities/new_organization.html:4
+msgid "{actor} created the organization {organization}"
+msgstr "{actor} created the team {organization}"
+
+#: ckan/templates/snippets/changes/org.html:5
+msgid ""
+"Moved {pkg_link} from organization {old_org_link} to organization "
+"{new_org_link}"
+msgstr "Moved {pkg_link} from team {old_org_link} to team {new_org_link}"
+
+#: ckan/templates/snippets/changes/org.html:25
+msgid "Removed {pkg_link} from organization {old_org_link}"
+msgstr "Removed {pkg_link} from team {old_org_link}"
+
+#: ckan/templates/snippets/changes/org.html:40
+msgid "Added {pkg_link} to organization {new_org_link}"
+msgstr "Added {pkg_link} to team {new_org_link}"
+
+#: ckan/templates/user/dashboard.html:21
+#: ckan/templates/user/dashboard_organizations.html:12
+msgid "My Organizations"
+msgstr "My Teams"
+
+#: ckan/templates/user/dashboard_organizations.html:21
+msgid "You are not a member of any organizations."
+msgstr "You are not a member of any teams."
+
